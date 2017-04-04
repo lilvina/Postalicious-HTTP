@@ -68,18 +68,18 @@ If that all sounds like ancient Greek to you, never fear. If you take it one ste
 
 **Sandbox Server**
 
-- [ ] Can run the command `npm run sandbox-server` (or `npm run sb`, if you want to save some typing) to start the sandbox web server at port 3000.
-- [ ] The sandbox server source code is written using the [Express][express] library.
-- [ ] Sending a `GET` request to the path `/` responds with...
-  - [ ] a 200 (OK) status code
-  - [ ] a plain-text response body with the content `Welcome to Sandbox!`
-  - [ ] the `Content-Type` header set to `text/plain`
-- [ ] Sending a `GET` request to the path `/search?q=doodads` responds with...
-  - [ ] a 200 (OK) status code
-  - [ ] a plain-text response body with the content `You searched for: "doodads"` 
+- [x] Can run the command `npm run sandbox-server` (or `npm run sb`, if you want to save some typing) to start the sandbox web server at port 3000.
+- [x] The sandbox server source code is written using the [Express][express] library.
+- [x] Sending a `GET` request to the path `/` responds with...
+  - [x] a 200 (OK) status code
+  - [x] a plain-text response body with the content `Welcome to Sandbox!`
+  - [x] the `Content-Type` header set to `text/plain`
+- [x] Sending a `GET` request to the path `/search?q=doodads` responds with...
+  - [x] a 200 (OK) status code
+  - [x] a plain-text response body with the content `You searched for: "doodads"` 
     - NOTE: (it doesn't need to actually do any searching, just return the plain text)
     - NOTE: "doodads" is a placeholder for whatever string is in the `q` query param
-  - [ ] the `Content-Type` header set to `text/plain`
+  - [x] the `Content-Type` header set to `text/plain`
 - [ ] Sending a `GET` request to the path `/search` responds with...
   - [ ] a 400 (Bad Request) status code
   - [ ] a plain-text response body with the content `You didn't provide a search query term :(`
