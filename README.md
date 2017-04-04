@@ -81,22 +81,22 @@ If that all sounds like ancient Greek to you, never fear. If you take it one ste
     - NOTE: "doodads" is a placeholder for whatever string is in the `q` query param
   - [x] the `Content-Type` header set to `text/plain`
 - [x] Sending a `GET` request to the path `/search` responds with...
-  - [x ] a 400 (Bad Request) status code
-  - [x ] a plain-text response body with the content `You didn't provide a search query term :(`
-  - [x ] the `Content-Type` header set to `text/plain`
-- [x ] Sending a `POST` request to the path `/things` with a plain text body `flying car` responds with...
-  - [x ] a 201 (Created) status code
-  - [x ] a plain-text response body with the content `New thing created: "flying car"!` (it doesn't need to actually create anything, just return the plain text)
+  - [x] a 400 (Bad Request) status code
+  - [x] a plain-text response body with the content `You didn't provide a search query term :(`
+  - [x] the `Content-Type` header set to `text/plain`
+- [x] Sending a `POST` request to the path `/things` with a plain text body `flying car` responds with...
+  - [x] a 201 (Created) status code
+  - [x] a plain-text response body with the content `New thing created: "flying car"!` (it doesn't need to actually create anything, just return the plain text)
     - NOTE: "flying car" is just a placeholder for whatever string is sent in the POST body.
-  - [x ] the `Content-Type` header set to `text/plain`
-- [x ] Sending a `GET` request to the path `/somefile` with an `Accept` header of `text/plain` responds with...
-  - [x ] a 200 (OK) status code
-  - [x ] a plain-text response body with the content `This is a plain text file`
-  - [x ] the `Content-Type` header set to `text/plain`
-- [x ] Sending a `GET` request to the path `/someotherfile` with an `Accept` header of `text/html` responds with...
-  - [x ] a 200 (OK) status code
-  - [x ] an HTML response body with the content `<!DOCTYPE html><html><body>This is an HTML file</body></html>`
-  - [x ] the `Content-Type` header set to `text/html`
+  - [x] the `Content-Type` header set to `text/plain`
+- [x] Sending a `GET` request to the path `/somefile` with an `Accept` header of `text/plain` responds with...
+  - [x] a 200 (OK) status code
+  - [x] a plain-text response body with the content `This is a plain text file`
+  - [x] the `Content-Type` header set to `text/plain`
+- [x] Sending a `GET` request to the path `/someotherfile` with an `Accept` header of `text/html` responds with...
+  - [x] a 200 (OK) status code
+  - [x] an HTML response body with the content `<!DOCTYPE html><html><body>This is an HTML file</body></html>`
+  - [x] the `Content-Type` header set to `text/html`
 - [ ] Sending a `GET` request to the path `/myjsondata` with an `Accept` header of `application/json` responds with...
   - [ ] a 200 (OK) status code
   - [ ] an HTML response body with the content `{ "title": "some JSON data" }`
