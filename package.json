@@ -1,8 +1,10 @@
 {
-  "name": "sandbox-server",
+  "name": "postalicious",
   "version": "1.0.0",
-  "main": "app.js",
+  "description": "",
   "scripts": {
+    "start:server": "nodemon sandbox-server/app.js",
+    "start:client": "nodemon postalicious/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
