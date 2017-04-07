@@ -1,0 +1,59 @@
+h1 {
+  background-color: grey;
+  font-size: 33px;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.background {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap | nowrap;
+}
+
+ .key {
+   width: 22px;
+   height: 22px;
+ }
+
+ .value {
+   height: 22px;
+ }
+
+
+/*#top,
+#bottom {
+    position: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+}
+*/
+
+#top {
+  display: flex;
+  top: 0;
+  background-color: grey; 
+  left: 0;
+  right: 0;
+  height: 50%;
+}
+
+#bottom {
+  bottom: 0; 
+  background-color: pink;
+  left: 0;
+  right: 0;
+  height: 50%;
+}

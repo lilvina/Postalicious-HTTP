@@ -1,7 +1,7 @@
 {
   "name": "postalicious",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Challenge Rating",
   "scripts": {
     "start:server": "nodemon sandbox-server/app.js",
     "start:client": "nodemon postalicious/app.js",
@@ -11,8 +11,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.2"
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
   },
   "devDependencies": {},
-  "description": ""
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilvina/Postalicious-HTTP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lilvina/Postalicious-HTTP/issues"
+  },
+  "homepage": "https://github.com/lilvina/Postalicious-HTTP#readme"
 }
