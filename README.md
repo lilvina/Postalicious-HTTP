@@ -97,34 +97,34 @@ If that all sounds like ancient Greek to you, never fear. If you take it one ste
   - [x] a 200 (OK) status code
   - [x] an HTML response body with the content `<!DOCTYPE html><html><body>This is an HTML file</body></html>`
   - [x] the `Content-Type` header set to `text/html`
-- [ ] Sending a `GET` request to the path `/myjsondata` with an `Accept` header of `application/json` responds with...
-  - [ ] a 200 (OK) status code
-  - [ ] an HTML response body with the content `{ "title": "some JSON data" }`
-  - [ ] the `Content-Type` header set to `application/json`
-- [ ] Sending a `GET` request to the path `/old-page` responds with...
-  - [ ] a 301 (Moved Permanently) status code
-  - [ ] the `Location` header set to `http://localhost:3000/newpage`
-- [ ] Sending a `POST` request to the path `/admin-only` responds with a 403 (Forbidden) status code
-- [ ] Sending a `GET` request to the path `/not-a-page` responds with a 404 (Not Found) status code
-- [ ] Sending a `GET` request to the path `/server-error` responds with a 500 (Internal Server Error) staus code
+- [x] Sending a `GET` request to the path `/myjsondata` with an `Accept` header of `application/json` responds with...
+  - [x] a 200 (OK) status code
+  - [x] an HTML response body with the content `{ "title": "some JSON data" }`
+  - [x] the `Content-Type` header set to `application/json`
+- [x] Sending a `GET` request to the path `/old-page` responds with...
+  - [x] a 301 (Moved Permanently) status code
+  - [x] the `Location` header set to `http://localhost:3000/newpage`
+- [x] Sending a `POST` request to the path `/admin-only` responds with a 403 (Forbidden) status code
+- [x] Sending a `GET` request to the path `/not-a-page` responds with a 404 (Not Found) status code
+- [x] Sending a `GET` request to the path `/server-error` responds with a 500 (Internal Server Error) staus code
 
 **Postalicious**
 
-- [ ] Can run the command `npm run postalicious` (or `npm run pl`, if you want to save some typing) to start the Postalicious app at port 3001.
-- [ ] Users can visit the main page of the Postalicious site at `http://localhost:3001`.
-- [ ] Main page has three main sections:
-  - [ ] Request builder HTML form
-  - [ ] Raw HTTP request
-  - [ ] Raw HTTP response
-- [ ] When a user fills out the HTML form and clicks a "Send" button...
-  - [ ] The raw HTTP request is generated and shown
-  - [ ] The HTTP request is sent, and the raw response message is shown
-- [ ] Users can fill out an HTML form to specify HTTP request details.
-- [ ] Submitting the form will send the request according to the specified details.
-- [ ] Requests are made from the server, not from the browser (this is to avoid [CORS issues](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)).
-- [ ] Using the HTML form, users can specify...
-  - [ ] host and path
-  - [ ] HTTP verb/method
+- [x] Can run the command `npm run postalicious` (or `npm run pl`, if you want to save some typing) to start the Postalicious app at port 3001.
+- [x] Users can visit the main page of the Postalicious site at `http://localhost:3001`.
+- [x] Main page has three main sections:
+  - [x] Request builder HTML form
+  - [x] Raw HTTP request
+  - [x] Raw HTTP response
+- [x] When a user fills out the HTML form and clicks a "Send" button...
+  - [x] The raw HTTP request is generated and shown
+  - [x] The HTTP request is sent, and the raw response message is shown
+- [x] Users can fill out an HTML form to specify HTTP request details.
+- [x] Submitting the form will send the request according to the specified details.
+- [x] Requests are made from the server, not from the browser (this is to avoid [CORS issues](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)).
+- [x] Using the HTML form, users can specify...
+  - [x] host and path
+  - [x] HTTP verb/method
   - [ ] query parameter keys + values
   - [ ] header keys + values
   - [ ] request body
